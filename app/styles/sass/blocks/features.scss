@@ -188,6 +188,7 @@
     &__item {
         position: relative;
         padding-left: 3rem;
+        color: rgba($color: #000000, $alpha: 0.8);
         &:before {
             content: "";
             display: block;

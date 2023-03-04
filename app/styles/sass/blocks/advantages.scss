@@ -1,7 +1,6 @@
 .advantages {
     background-color: var(--blue-2);
     color: #fff;
-    
     counter-reset: feature;  
     overflow: hidden;
     @media screen and (min-width: 1200px) {
@@ -87,7 +86,12 @@
         background-color: var(--blue-light);
         transform: translateY(-10px);
     }
-    &:hover &__number {
+    &.active {
+        background-color: #376392;
+        transform: translateY(-10px);
+    }
+
+    &:hover &__number, &.active &__number {
         background-color: #fff;
         &:after {
             color: var(--blue-light);

@@ -30,4 +30,8 @@
     border-radius: 12px;
     display: inline-block;
     padding: 1rem 1.5rem;
+    color: #000;
+    &:focus {
+        border: 1px solid #162E49;
+    }
 }
